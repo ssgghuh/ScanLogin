@@ -13,12 +13,12 @@ import top.jowanxu.scanlogin.tryHook
 
 class HookWeChat {
     companion object {
-        private const val WECHAT_HOOK_CLASS_NAME = "com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI"
+        private const val WECHAT_HOOK_CLASS_NAME = "com.tencent.mm.plugin.webview.ui.tools.SDKOAuthUI"
         private val TAG = HookWeChat::class.java.simpleName
     }
 
     /**
-     * 自动确认微信电脑端登录
+     * 允许
 
      * @param lpParam LoadPackageParam
      */
